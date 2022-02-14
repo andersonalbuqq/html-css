@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronauta</title>
+    <style>
+        #fundo{
+            position: relative;
+            background-color: black;
+            background-image: url(espaco.jpg);
+            background-size: cover;
+
+            height: 97vh;
+        }
+
+        #astronauta{
+            background-image: url(astronauta.png);
+            background-position: center;
+            background-size: contain;
+            position: absolute;
+            height: 50%;
+            width: 50%;
+            
+            max-width: 400px;
+            max-height: 400px;
+            background-repeat: no-repeat;
+            
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="fundo">
+        <div id="astronauta">
+           
+        </div>
+    </div>
+</body>
+</html>
