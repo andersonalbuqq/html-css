@@ -12,8 +12,7 @@
 
 *{
     margin: 0px;
-    padding: 0px;
-    
+    padding: 0px;   
 }
 
 html, body {
@@ -81,7 +80,6 @@ section.imagem > p{
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
-    
 }
 
 section#img01{
@@ -93,8 +91,6 @@ section#img01{
 section#img02{
     background-image: url(../imagens/background002.jpg);
     background-position: right center;
-    
-
 }
 
 footer{
