@@ -37,7 +37,7 @@ header > h1{
 
 header > p {
     padding-bottom: 50px;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 a{
@@ -102,5 +102,5 @@ footer{
     text-align: center;
     color: white;
     padding: 10px;
-    font-size: 3em;
+    font-size: 2.5em;
 }
